@@ -78,11 +78,11 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		/// ↓描画処理ここから
 		///
 
-		Novice::ScreenPrintf(10, 10, "%d", isHit);
+		/*Novice::ScreenPrintf(10, 10, "%d", isHit);
 		Novice::ScreenPrintf(10, 40, "%d", int(distanceSum));
 		Novice::ScreenPrintf(10, 70, "%d", int(radiusSum));
 		Novice::ScreenPrintf(10, 100, "%d", int(player->GetBulletPos().x));
-		Novice::ScreenPrintf(10, 130, "%d", int(player->GetBulletPos().y));
+		Novice::ScreenPrintf(10, 130, "%d", int(player->GetBulletPos().y));*/
 
 
 		player->Draw();

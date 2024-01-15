@@ -37,7 +37,7 @@ void Enemy::Update(){
 
 void Enemy::Draw(){
 
-	Novice::ScreenPrintf(10, 150, "%d" ,int(coolTime_));
+	//Novice::ScreenPrintf(10, 150, "%d" ,int(coolTime_));
 
 	if (isAlive_) {
 
